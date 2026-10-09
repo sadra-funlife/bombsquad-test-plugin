@@ -11,5 +11,4 @@ class TestPlugin(babase.Plugin):
         babase.screenmessage(
             "Test Plugin Loaded",
             color=(0.3, 1.0, 0.4),
-            transient=True,
         )
